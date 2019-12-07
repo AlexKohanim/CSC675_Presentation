@@ -1,0 +1,408 @@
+Model ,Inventory,MSRP,Year
+STRING,INT(11),INT(11),INT(11)
+Chevrolet Chevelle Malibu,18,53954,2012
+Buick Skylark 320,15,60492,2007
+Plymouth Satellite,18,27784,2004
+AMC Rebel SST,16,28260,1994
+Ford Torino,17,41383,2005
+Ford Galaxie 500,15,69288,2019
+Chevrolet Impala,14,52404,2014
+Plymouth Fury iii,14,45099,2003
+Pontiac Catalina,14,31418,1991
+AMC Ambassador DPL,15,66604,2005
+Citroen DS-21 Pallas,2,44264,1992
+Chevrolet Chevelle Concours (sw),1,24722,2012
+Ford Torino (sw),2,24087,2006
+Plymouth Satellite (sw),3,39389,2019
+AMC Rebel SST (sw),4,25504,2018
+Dodge Challenger SE,15,51062,2015
+Plymouth 'Cuda 340,14,66981,1994
+Ford Mustang Boss 302,2,76718,2015
+Chevrolet Monte Carlo,15,29396,2015
+Buick Estate Wagon (sw),14,58776,2010
+Toyota Corolla Mark ii,24,35562,2011
+Plymouth Duster,22,75049,2011
+AMC Hornet,18,43466,2001
+Ford Maverick,21,71640,2007
+Datsun PL510,27,59314,2010
+Volkswagen 1131 Deluxe Sedan,26,56669,1998
+Peugeot 504,25,53842,2007
+Audi 100 LS,24,66101,2014
+Saab 99e,25,26967,2009
+BMW 2002,26,60969,1994
+AMC Gremlin,21,66711,1996
+Ford F250,10,60391,2001
+Chevy C20,10,76961,1996
+Dodge D200,11,71617,2010
+Hi 1200D,9,62833,2013
+Datsun PL510,27,29639,2003
+Chevrolet Vega 2300,28,59824,2017
+Toyota Corolla,25,39151,1994
+Ford Pinto,25,75090,1992
+Volkswagen Super Beetle 117,1,20137,2013
+AMC Gremlin,19,44746,1997
+Plymouth Satellite Custom,16,75954,1997
+Chevrolet Chevelle Malibu,17,37941,2015
+Ford Torino 500,19,35230,1990
+AMC Matador,18,21547,2015
+Chevrolet Impala,14,31370,2012
+Pontiac Catalina Brougham,14,37828,2007
+Ford Galaxie 500,14,22471,2007
+Plymouth Fury iii,14,57252,2007
+Dodge Monaco (sw),12,35346,2014
+Ford Country Squire (sw),13,75919,2017
+Pontiac Safari (sw),13,60266,2017
+AMC Hornet Sportabout (sw),18,77609,2019
+Chevrolet Vega (sw),22,36690,2001
+Pontiac Firebird,19,28501,2012
+Ford Mustang,18,46581,1995
+Mercury Capri 2000,23,60145,2016
+Opel 1900,28,28471,2014
+Peugeot 304,30,69561,2006
+Fiat 124B,30,21304,1994
+Toyota Corolla 1200,31,79717,1998
+Datsun 1200,35,28475,1999
+Volkswagen Model 111,27,74517,2019
+Plymouth Cricket,26,77369,1999
+Toyota Corolla Hardtop,24,71322,2015
+Dodge Colt Hardtop,25,59182,2014
+Volkswagen Type 3,23,40918,2009
+Chevrolet Vega,20,56843,1996
+Ford Pinto Runabout,21,62616,1995
+Chevrolet Impala,13,74008,2017
+Pontiac Catalina,14,21822,2006
+Plymouth Fury III,15,27481,2018
+Ford Galaxie 500,14,36878,1998
+AMC Ambassador SST,17,24783,2002
+Mercury Marquis,11,35617,2013
+Buick LeSabre Custom,13,30345,2004
+Oldsmobile Delta 88 Royale,12,56321,2007
+Chrysler Newport Royal,13,68876,2013
+Mazda RX2 Coupe,19,45756,2005
+AMC Matador (sw),15,23843,2017
+Chevrolet Chevelle Concours (sw),13,34471,2001
+Ford Gran Torino (sw),13,23104,1994
+Plymouth Satellite Custom (sw),14,29162,1994
+Volvo 145e (sw),18,65360,2004
+Volkswagen 411 (sw),22,47658,1991
+Peugeot 504 (sw),21,60200,2013
+Renault 12 (sw),26,73038,2012
+Ford Pinto (sw),22,58063,2003
+Datsun 510 (sw),28,37919,2019
+Toyota Corolla Mark II (sw),23,76846,1995
+Dodge Colt (sw),28,49803,1998
+Toyota Corolla 1600 (sw),27,38889,1996
+Buick Century 350,13,62087,2012
+AMC Matador,14,72059,1996
+Chevrolet Malibu,13,47114,2011
+Ford Gran Torino,14,37748,2007
+Dodge Coronet Custom,15,74653,1992
+Mercury Marquis Brougham,12,22757,2012
+Chevrolet Caprice Classic,13,62631,2011
+Ford LTD,13,50752,2003
+Plymouth Fury Gran Sedan,14,46063,1998
+Chrysler New Yorker Brougham,13,77598,2002
+Buick Electra 225 Custom,12,29096,2001
+AMC Ambassador Brougham,13,38062,2001
+Plymouth Valiant,18,51173,2018
+Chevrolet Nova Custom,16,23244,1994
+AMC Hornet,18,71881,2018
+Ford Maverick,18,37828,2006
+Plymouth Duster,23,44947,2005
+Volkswagen Super Beetle,26,35614,2001
+Chevrolet Impala,11,32560,2016
+Ford Country,12,26457,2003
+Plymouth Custom Suburb,13,57286,2016
+Oldsmobile Vista Cruiser,12,65499,1993
+AMC Gremlin,18,55927,2003
+Toyota Camry,20,37176,1990
+Chevrolet Vega,21,72851,2014
+Datsun 610,22,21810,2003
+Mazda RX3,18,62953,1993
+Ford Pinto,19,39781,2015
+Mercury Capri v6,21,45185,2019
+Fiat 124 Sport Coupe,26,33567,2000
+Chevrolet Monte Carlo S,15,30988,2016
+Pontiac Grand Prix,16,76085,2016
+Fiat 128,29,40627,2006
+Opel Manta,24,70308,1992
+Audi 100LS,20,77798,2008
+Volvo 144ea,19,38870,2008
+Dodge Dart Custom,15,56485,2019
+Saab 99le,24,35747,2005
+Toyota Mark II,20,75485,2007
+Oldsmobile Omega,11,34070,2018
+Plymouth Duster,20,22347,1991
+Ford Maverick,21,72674,2016
+AMC Hornet,19,56441,2016
+Chevrolet Nova,15,30575,1991
+Datsun B210,31,51757,1994
+Ford Pinto,26,71997,2006
+Toyota Corolla 1200,32,42310,1995
+Chevrolet Vega,25,56179,2005
+Chevrolet Chevelle Malibu Classic,16,31719,1995
+AMC Matador,16,71143,1993
+Plymouth Satellite Sebring,18,54479,2019
+Ford Gran Torino,16,41771,2018
+Buick Century Luxus (sw),13,43323,1994
+Dodge Coronet Custom (sw),14,20726,2013
+Ford Gran Torino (sw),14,66513,2016
+AMC Matador (sw),14,72138,1991
+Audi Fox,29,24752,2012
+Volkswagen Dasher,26,51941,2011
+Opel Manta,26,66267,2014
+Toyota Corolla,31,57285,2007
+Datsun 710,32,37613,1992
+Dodge Colt,28,65576,1990
+Fiat 128,24,57001,2017
+Fiat 124 TC,26,22078,2018
+Honda Civic,24,40834,2008
+Subaru,26,71735,2019
+Fiat x1.9,31,75240,1994
+Plymouth Valiant Custom,19,40660,1994
+Chevrolet Nova,18,24913,2013
+Mercury Monarch,15,39137,2006
+Ford Maverick,15,63823,2013
+Pontiac Catalina,16,79917,2019
+Chevrolet Bel Air,15,66417,2002
+Plymouth Grand Fury,16,74353,2002
+Ford LTD,14,33156,2017
+Buick Century,17,32003,2009
+Chevrolete Chevelle Malibu,16,47724,1991
+AMC Matador,15,56574,1993
+Plymouth Fury,18,21378,2012
+Buick Skyhawk,21,23009,2008
+Chevrolet Monza 2+2,20,66164,1991
+Ford Mustang II,13,50204,2017
+Toyota Corolla,29,42273,1993
+Ford Pinto,23,52051,2012
+AMC Gremlin,20,60732,1996
+Pontiac Astro,23,25463,2000
+Toyota Corolla,24,76805,2006
+Volkswagen Dasher,25,21004,2019
+Datsun 710,24,22604,1993
+Ford Pinto,18,45798,2004
+Volkswagen Rabbit,29,58465,2019
+AMC Pacer,19,72459,1999
+Audi 100LS,23,24099,1997
+Peugeot 504,23,31180,2013
+Volvo 244DL,22,29539,1994
+Saab 99LE,25,59945,2001
+Honda Civic CVCC,33,75350,2001
+Fiat 131,28,30362,2012
+Opel 1900,25,22294,2003
+Capri ii,25,76952,1998
+Dodge Colt,26,53161,2006
+Renault 12tl,27,39486,2002
+Chevrolet Chevelle Malibu Classic,17,50923,2008
+Dodge Coronet Brougham,16,58074,2018
+AMC Matador,15,37747,2002
+Ford Gran Torino,14,42835,2005
+Plymouth Valiant,22,55618,1991
+Chevrolet Nova,22,65783,2008
+Ford Maverick,24,64068,2014
+AMC Hornet,22,52895,1992
+Chevrolet Chevette,29,33744,2006
+Chevrolet Woody,24,79089,2016
+Volkswagen Rabbit,29,37163,2005
+Honda Civic,33,55262,1990
+Dodge Aspen SE,20,29318,2009
+Ford Grenada ghia,18,53095,2002
+Pontiac Ventura SJ,18,33664,2004
+AMC Pacer d/l,17,77454,2016
+Volkswagen Rabbit,29,30633,2002
+Datsun B-210,32,45420,1995
+Toyota Corolla,28,63804,1991
+Ford Pinto,26,40421,1998
+Volvo 245,20,73476,1997
+Plymouth Volare Premier v8,13,43840,1992
+Peugeot 504,19,26093,2016
+Toyota Mark II,19,27179,2015
+Mercedes-Benz 280s,16,42642,2003
+Cadillac Seville,15,21908,2001
+Chevrolet C10,13,31011,1996
+Ford F108,13,37380,2000
+Dodge D100,13,77127,2019
+Honda Accord CVCC,31,49117,2004
+Buick Opel Isuzu Deluxe,30,32108,2012
+Renault 5 GTL,36,72663,1992
+Plymouth Arrow GS,25,35435,2019
+Datsun F-10 Hatchback,33,49684,2005
+Chevrolet Caprice Classic,17,68739,2007
+Oldsmobile Cutlass Supreme,17,77064,2001
+Dodge Monaco Brougham,15,41036,2010
+Mercury Cougar Brougham,15,33804,1999
+Chevrolet Concours,17,78137,2016
+Buick Skylark,20,78351,2009
+Plymouth Volare Custom,19,67685,2007
+Ford Grenada,18,67194,1998
+Pontiac Grand Prix LJ,16,76929,2010
+Chevrolet Monte Carlo Landau,15,25235,2018
+Chrysler Cordoba,15,63422,2017
+Ford Thunderbird,16,66753,1995
+Volkswagen Rabbit Custom,29,77675,1998
+Pontiac Sunbird Coupe,24,26248,2016
+Toyota Corolla Liftback,26,74099,1998
+Ford Mustang II 2+2,25,57208,2006
+Chevrolet Chevette,30,20598,2019
+Dodge Colt m/m,33,52071,1996
+Subaru DL,30,62728,2004
+Volkswagen Dasher,30,70198,2006
+Datsun 810,22,57204,2010
+BMW 320i,21,51777,1994
+Mazda RX-4,21,69519,2003
+Volkswagen Rabbit Custom Diesel,43,58385,2009
+Ford Fiesta,36,70225,2011
+Mazda GLC Deluxe,32,41482,2014
+Datsun B210 GX,39,53021,2016
+Honda Civic CVCC,36,29963,2017
+Oldsmobile Cutlass Salon Brougham,19,43888,2007
+Dodge Diplomat,19,47390,1999
+Mercury Monarch ghia,20,43658,2013
+Pontiac Phoenix LJ,19,38326,1993
+Chevrolet Malibu,20,42069,2013
+Ford Fairmont (auto),20,51262,2016
+Ford Fairmont (man),25,25947,1997
+Plymouth Volare,20,38349,2015
+AMC Concord,19,69031,1996
+Buick Century Special,20,23138,1999
+Mercury Zephyr,20,79442,1999
+Dodge Aspen,18,25031,2006
+AMC Concord d/l,18,24357,2001
+Chevrolet Monte Carlo Landau,19,74079,1996
+Buick Regal Sport Coupe (turbo),17,28178,2016
+Ford Futura,18,70507,1991
+Dodge Magnum XE,17,35453,2012
+Chevrolet Chevette,30,55452,2005
+Toyota Corolla,27,78864,1995
+Datsun 510,27,28020,1995
+Dodge Omni,30,66165,2011
+Toyota Celica GT Liftback,21,66519,2005
+Plymouth Sapporo,23,41212,2004
+Oldsmobile Starfire SX,23,64984,1995
+Datsun 200-SX,23,30294,1990
+Audi 5000,20,79212,1998
+Volvo 264gl,17,66659,1991
+Saab 99gle,21,35538,2001
+Peugeot 604sl,16,32743,2019
+Volkswagen Scirocco,31,73162,1990
+Honda Accord LX,29,78114,2008
+Pontiac Lemans V6,21,36253,1996
+Mercury Zephyr 6,19,39190,2010
+Ford Fairmont 4,22,60377,2012
+AMC Concord DL 6,20,31850,2009
+Dodge Aspen 6,20,71349,2018
+Chevrolet Caprice Classic,17,55283,1992
+Ford LTD Landau,17,76704,2014
+Mercury Grand Marquis,16,52713,2013
+Dodge St. Regis,18,75981,2013
+Buick Estate Wagon (sw),16,36519,1997
+Ford Country Squire (sw),15,44368,2002
+Chevrolet Malibu Classic (sw),19,58070,1996
+Chrysler Lebaron Town @ Country (sw),18,54094,1995
+Volkswagen Rabbit Custom,31,61982,2002
+Mazda GLC Deluxe,34,63624,2017
+Dodge Colt Hatchback Custom,35,63497,1997
+AMC Spirit DL,27,78491,2003
+Mercedes Benz 300d,25,27963,1999
+Cadillac Eldorado,23,45483,1994
+Peugeot 504,27,51906,2001
+Oldsmobile Cutlass Salon Brougham,23,55429,2004
+Plymouth Horizon,34,63367,2005
+Plymouth Horizon TC3,34,48248,2011
+Datsun 210,31,60996,2011
+Fiat Strada Custom,37,50796,1999
+Buick Skylark Limited,28,47929,2001
+Chevrolet Citation,28,66357,2011
+Oldsmobile Omega Brougham,26,71273,2019
+Pontiac Phoenix,33,48693,2009
+Volkswagen Rabbit,41,59497,1993
+Toyota Corolla Tercel,38,37035,1995
+Chevrolet Chevette,32,52191,2009
+Datsun 310,37,55914,2010
+Chevrolet Citation,28,65086,2010
+Ford Fairmont,26,41134,2001
+AMC Concord,24,65544,1999
+Dodge Aspen,19,37459,1993
+Audi 4000,34,51098,2006
+Toyota Corolla Liftback,29,26644,2016
+Mazda 626,31,64645,1996
+Datsun 510 Hatchback,37,32205,2006
+Toyota Corolla,32,47656,2002
+Mazda GLC,46,41725,2000
+Dodge Colt,27,38986,1994
+Datsun 210,40,33477,2004
+Volkswagen Rabbit C (Diesel),44,75490,1999
+Volkswagen Dasher (diesel),43,26192,2010
+Audi 5000s (diesel),36,50779,2002
+Mercedes-Benz 240d,30,43618,1995
+Honda Civic 1500 gl,44,68747,1991
+Renault Lecar Deluxe,40,23741,2019
+Subaru DL,33,54082,1991
+Volkswagen Rabbit,29,64120,1999
+Datsun 280-ZX,32,25288,2017
+Mazda RX-7 GS,23,37706,2013
+Triumph TR7 Coupe,35,21192,2009
+Ford Mustang Cobra,23,67017,2009
+Honda Accord,32,44323,2000
+Plymouth Reliant,27,33794,2004
+Buick Skylark,26,33575,1990
+Dodge Aries Wagon (sw),25,46177,2004
+Chevrolet Citation,23,42083,2009
+Plymouth Reliant,30,66655,2006
+Toyota Starlet,39,43360,1994
+Plymouth Champ,39,68506,2011
+Honda Civic 1300,35,34421,1997
+Subaru,32,69099,2000
+Datsun 210 MPG,37,41976,2013
+Toyota Tercel,37,73438,1993
+Mazda GLC 4,34,28953,1996
+Plymouth Horizon 4,34,22034,2003
+Ford Escort 4W,34,31166,2010
+Ford Escort 2H,29,30559,2019
+Volkswagen Jetta,33,42920,2005
+Renault 18i,34,41290,2004
+Honda Prelude,33,29718,2005
+Toyota Corolla,32,21963,2016
+Datsun 200SX,32,22410,1991
+Mazda 626,31,52666,2000
+Peugeot 505s Turbo Diesel,28,78004,2018
+Saab 900s,1,79354,1992
+Volvo Diesel,30,23330,2009
+Toyota Cressida,25,36217,2009
+Datsun 810 Maxima,24,71543,1996
+Buick Century,22,79542,2012
+Oldsmobile Cutlass LS,26,66652,2017
+Ford Grenada gl,20,39705,2000
+Chrysler Lebaron Salon,17,58625,2011
+Chevrolet Cavalier,28,48046,2011
+Chevrolet Cavalier Wagon,27,48597,2017
+Chevrolet Cavalier 2-door,34,29065,2009
+Pontiac J2000 SE Hatchback,31,61615,1990
+Dodge Aries SE,29,70541,2004
+Pontiac Phoenix,27,33758,2006
+Ford Fairmont Futura,24,40516,1998
+AMC Concord DL,23,36129,2003
+Volkswagen Rabbit l,36,70957,2011
+Mazda GLC Custom l,37,24174,2004
+Mazda GLC Custom,31,56673,1990
+Plymouth Horizon Miser,38,62523,1994
+Mercury Lynx l,36,64895,2008
+Nissan Stanza XE,36,67332,2004
+Honda Accord,36,74033,2015
+Toyota Corolla,34,65548,2014
+Honda Civic,38,35811,2001
+Honda Civic (auto),32,55144,1999
+Datsun 310 GX,38,45934,2016
+Buick Century Limited,25,32039,2018
+Oldsmobile Cutlass Ciera (diesel),38,20946,1993
+Chrysler Lebaron Medallion,26,41952,2016
+Ford Grenada l,22,37151,2015
+Toyota Celica GT,32,23307,1999
+Dodge Charger 2.2,36,54697,1993
+Chevrolet Camaro,27,38895,1990
+Ford Mustang GL,27,48063,2003
+Volkswagen Pickup,44,21407,1991
+Dodge Rampage,32,68726,2004
+Ford Ranger,28,72418,2006
+Chevy S-10,31,45789,2005
