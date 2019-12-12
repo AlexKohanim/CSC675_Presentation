@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      />
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+        }
+        </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>First Query</h2>
+      <a href="#first" class="btn btn-primary" data-toggle="collapse">Show Query
+        1</a>
+      <div id="first" class="collapse">
+        {{q1 | safe}}
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Second Query</h2>
+      <a href="#second" class="btn btn-primary" data-toggle="collapse">Show
+        Query 2</a>
+      <div id="second" class="collapse">
+        {{q2 | safe}}
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Third Query</h2>
+      <a href="#third" class="btn btn-primary" data-toggle="collapse">Show Query
+        3</a>
+      <div id="third" class="collapse">
+        {{q3 | safe}}
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Fourth Query</h2>
+      <a href="#fourth" class="btn btn-primary" data-toggle="collapse">Show
+        Query 4</a>
+      <div id="fourth" class="collapse">
+        {{q4 | safe}}
+      </div>
+    </div>
+  </body>
+</html>
