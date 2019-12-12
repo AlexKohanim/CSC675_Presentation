@@ -13,10 +13,45 @@ db = pymysql.connect(host, user_name, password, db_name)
 
 index_blueprint = Blueprint('index', __name__)
 
+queryOne = """
+    SELECT Count(sid), Eid
+    FROM Sales
+    GROUP by Eid;
+"""
+
+queryTwo = """
+    SELECT Count(S.Sid), E.Eid, E.Name
+    from Sales S, Employees E
+    where S.Eid = E.Eid
+    group by E.Eid;
+
+"""
+
+queryThree = """
+
+    SELECT C.Pid, C.Name
+    From Customers C
+    Where Not Exists ( Select S.Pid 
+        From Sales S
+        Where S.Pid = C.Pid);
+"""
+
+queryFour = """
+
+    SELECT C.Pid, C.Name, C.Email
+    From Customers C
+    Where Exists ( SELECT S.Pid
+        From Sales S
+        Where S.Pid = C.Pid
+        Group By S.Pid
+        Having Count(*) > 1);
+
+"""
+qInfo = [queryOne, queryTwo, queryThree, queryFour]
 
 @index_blueprint.route("/")
 def index():
-    return render_template("index.html", q1=getQuery1(), q2=getQuery2(), q3=getQuery3(), q4=getQuery4())
+    return render_template("index.html", q1=getQuery1(), q2=getQuery2(), q3=getQuery3(), q4=getQuery4(), qi=qInfo)
 
 
 def getTable(data):
@@ -42,15 +77,10 @@ def getTable(data):
 
     return result
 
+
 def getQuery1():
     cursor = db.cursor()
-
-    query = """
-    SELECT Count(sid), Eid
-    FROM Sales
-    GROUP by Eid;
-    """
-    cursor.execute(query)
+    cursor.execute(queryOne)
     data = cursor.fetchall()
     cursor.close()
     print(type(data))
@@ -61,14 +91,7 @@ def getQuery1():
 
 def getQuery2():
     cursor = db.cursor()
-
-    query = """
-    select Count(S.Sid), E.Eid, E.Name
-    from Sales S, Employees E
-    where S.Eid = E.Eid
-    group by E.Eid;
-    """
-    cursor.execute(query)
+    cursor.execute(queryTwo)
     data = cursor.fetchall()
     cursor.close()
 
@@ -79,15 +102,7 @@ def getQuery2():
 
 def getQuery3():
     cursor = db.cursor()
-
-    query = """
-    SELECT C.Pid, C.Name
-    From Customers C
-    Where Not Exists ( Select S.Pid 
-        From Sales S
-        Where S.Pid = C.Pid);
-    """
-    cursor.execute(query)
+    cursor.execute(queryThree)
     data = cursor.fetchall()
     cursor.close()
 
@@ -98,17 +113,7 @@ def getQuery3():
 
 def getQuery4():
     cursor = db.cursor()
-
-    query = """
-    SELECT C.Pid, C.Name, C.Email
-    From Customers C
-    Where Exists ( SELECT S.Pid
-        From Sales S
-        Where S.Pid = C.Pid
-        Group By S.Pid
-        Having Count(*) > 1);
-    """
-    cursor.execute(query)
+    cursor.execute(queryFour)
     data = cursor.fetchall()
     cursor.close()
 
